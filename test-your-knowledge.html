@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css"/>
+    <title>Arrokoth-Test your Knowledge</title>
+  </head>
+  <body>
+     <header>
+      <h1>
+        Arrokoth
+      </h1>
+      <nav>
+        <ul>
+          <li>
+            <!--class is apart of CSS that cretes a style for each element apart of its class-->
+            <a href="test-your-knowledge.html" class="active">Test Your Knowledge Quiz</a>
+          </li>
+          <li>
+            <a href="index.html">Information Page</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+
+      <br/>
+      <br/>
+
+      <form name="arrokoth-knowledge-test" id="arrokoth-knowledge-test" method="get">
+        <label for="named-after">Most parts of Arrokoth are named after what word in different languages? </label>
+        <input type="text" name="named-after" id="named-after" />
+
+        <br/>
+        <br/>
+
+        <label for="picture-colour">What colour is the flyby picture on the main page? </label>
+        <input type="color" name="picture-colour" id="picture-colour" />
+
+        <br/>
+        <br/>
+
+        <fieldset form="arrokoth-knowledge-test" name="spot-fake">
+          <legend>Which one is NOT a part of Arrokoth</legend>
+
+          <input type="radio" name="anatomy" id="kaan-arcus" />
+          <label for="kaan-arcus">Ka'an Arcus</label>
+          <input type="radio" name="anatomy" id="wenu-lobus" />
+          <label for="wenu-lobus">Wenu Lobus</label>
+          <input type="radio" name="anatomy" id="akasa-linea" />
+          <label for="akasa-linea">Akasa Linea</label>
+          <input type="radio" name="anatomy" id="sky" />
+          <label for="sky">Sky</label>
+          <input type="radio" name="anatomy" id="fake" />
+          <label for="fake">Caelum</label>
+          <input type="radio" name="anatomy" id="weeyo-lobus" />
+          <label for="weeyo-lobus">Weeyo Lobus</label>
+        </fieldset>
+
+        <br/>
+        <br/>
+
+        <input
+          type="submit"
+          name="submitButton"
+          id="submit"
+          value="Press to Submit" />
+
+          <br/>
+          <br/>
+          <br/>
+
+          <input
+          type="reset"
+          name="resetButton"
+          id="reset"
+          value="Press to Reset Answers" />
+        
+      </form>
+    </main>
+
+    <footer>
+      <p>&#169 2022 Vee Wright</p>
+    </footer>
+  </body>
+</html>

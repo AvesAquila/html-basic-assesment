@@ -1,0 +1,65 @@
+/*changes font, alligns text to center*/
+h1 {
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+}
+
+/*changes font*/
+p {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/*makes table border, extends width, and changes font*/
+table,
+th,
+td {
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  border: 1px solid;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+/*YouTube video*/
+div,
+iframe {
+  text-align: center;
+  padding: 5px;
+}
+
+/*nav bar formatting - w3schools tutorial*/
+ul {
+  /*type non removes bullets*/
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: rgb(56, 55, 56);
+}
+
+/*links slid left*/
+li {
+  float: left;
+}
+
+/*link text formatting*/
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/*Changes the link colour on hover*/
+li a:hover {
+  background-color: rgb(20, 19, 20);
+}
+
+/*active page is highlighted*/
+.active {
+  background-color: rgb(69, 34, 99);
+}
