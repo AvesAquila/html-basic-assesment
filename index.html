@@ -3,7 +3,7 @@
     Course: Software Development 20S
     Teacher: Mr. Hardman
     School: Pembina Trails Early College
-    Date Last Modified: 13/10/22 (dd/mm/yy)
+    Date Last Modified: 17/10/22 (dd/mm/yy)
 -->
 
 <!DOCTYPE html>
@@ -12,15 +12,22 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!--links the css style sheet to this file-->
     <link rel="stylesheet" href="style.css"/>
+
     <title>Arrokoth</title>
   </head>
   <body>
+    <!--top of webpage, semantic tag-->
     <header>
       <h1 >
         Arrokoth
       </h1>
+
+      <!--Nav bar, contains link to other page and its own, semantic tag-->
       <nav>
+        <!--unordered list so users dont think one page is more important than another-->
         <ul>
           <li>
             <a href="test-your-knowledge.html">Test Your Knowledge Quiz</a>
@@ -33,6 +40,7 @@
       </nav>
     </header>
 
+    <!--Bulk of the content, semantic tag-->
     <main>
       <p >
         Looking like a snowman you would find a small toddler creating in a
@@ -77,12 +85,17 @@
         </tr>
         <tr>
           <td>Wenu Lobus</td>
-          <td>the larger lobe of Arrokoth, provisionally "Ultima"</td>
+          <!-- the strong <strong> tag functions the some as the b tag, making the text bold, looking more important-->
+          <td>the larger lobe of Arrokoth, provisionally <strong>"Ultima"</strong></td>
+          <!-- 
+            the emphasis <em> tag functions the same as the i tag, putting the text into italics, 
+            here it is used to show the meaning of the names in english
+          -->
           <td>wenu, the Mapudungun word for <em>'sky, above'</em></td>
         </tr>
         <tr>
           <td>Weeyo Lobus</td>
-          <td>the smaller lobe, provisionally "Thule"</td>
+          <td>the smaller lobe, provisionally <strong>"Thule"</strong></td>
           <td>𞤱𞤫𞥅𞤴𞤮 weeyo, the Pulaar word for <em>'sky'</em></td>
         </tr>
         <tr>
@@ -107,7 +120,7 @@
         </tr>
       </table>
 
-      <!--Video from YouTube on Arrokoth-->
+      <!--Video from YouTube on Arrokoth put in div for formatting purposes-->
       <div>
         <iframe
         width="692"
@@ -118,13 +131,12 @@
         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
         allowfullscreen></iframe>
       </div>
-      
-
     </main>
 
+    <!--footer, should contain copy right, semantic tag-->
     <footer>
       <p>&#169 2022 Vee Wright</p>
-      <a href="https://en.wikipedia.org/wiki/486958_Arrokoth">Source: Wikipedia - Arrokoth</a>
+      <a href="https://en.wikipedia.org/wiki/486958_Arrokoth" target="_blank">Source: Wikipedia - Arrokoth</a>
     </footer>
   </body>
 </html>

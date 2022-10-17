@@ -4,15 +4,22 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!--links the css style sheet to the file-->
     <link rel="stylesheet" href="style.css"/>
+
     <title>Arrokoth-Test your Knowledge</title>
   </head>
   <body>
+    <!--top of webpage, semantic tag-->
      <header>
       <h1>
         Arrokoth
       </h1>
+
+      <!--Nav bar, contains link to other page and its own, semantic tag-->
       <nav>
+        <!--unordered list so users dont think one page is more important than another-->
         <ul>
           <li>
             <!--class is apart of CSS that cretes a style for each element apart of its class-->
@@ -25,27 +32,35 @@
       </nav>
     </header>
 
+    <!--bulk of the ontent, semantic tag-->
     <main>
 
       <br/>
       <br/>
 
+      <!--creates form, method get is used for unsensitive information-->
       <form name="arrokoth-knowledge-test" id="arrokoth-knowledge-test" method="get">
+
+        <!--generic input type text. the for attribute in label references the id of the input-->
         <label for="named-after">Most parts of Arrokoth are named after what word in different languages? </label>
         <input type="text" name="named-after" id="named-after" />
 
         <br/>
         <br/>
 
+        <!--input type colour allows users to select a colour from a display-->
         <label for="picture-colour">What colour is the flyby picture on the main page? </label>
         <input type="color" name="picture-colour" id="picture-colour" />
 
         <br/>
         <br/>
 
+        <!--fieldset contains the selection of radio buttons.-->
         <fieldset form="arrokoth-knowledge-test" name="spot-fake">
+          <!--legend is the text that cuts through the field set border-->
           <legend>Which one is NOT a part of Arrokoth</legend>
 
+          <!--input type radio only allows one button with the same name attribute to be selected at a time-->
           <input type="radio" name="anatomy" id="kaan-arcus" />
           <label for="kaan-arcus">Ka'an Arcus</label>
           <input type="radio" name="anatomy" id="wenu-lobus" />
@@ -63,6 +78,13 @@
         <br/>
         <br/>
 
+        <input type="checkbox" name="good-form" id="self-validation" required/>
+        <label for="self-validation">Check the box if this was a good form [required]</label>
+
+        <br/>
+        <br/>
+
+        <!--submit button, the value is the text displayed on it-->
         <input
           type="submit"
           name="submitButton"
@@ -73,6 +95,7 @@
           <br/>
           <br/>
 
+          <!--reset button to reset answers, value is the text displayed on top of it-->
           <input
           type="reset"
           name="resetButton"
@@ -82,6 +105,7 @@
       </form>
     </main>
 
+    <!--footer, should contain copy right, semantic tag-->
     <footer>
       <p>&#169 2022 Vee Wright</p>
     </footer>
